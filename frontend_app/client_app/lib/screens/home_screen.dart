@@ -41,13 +41,13 @@ class _HomeScreenState extends State<HomeScreen> {
   bool _isLoading = true;
   String _searchQuery = '';
 
-  // Définition des couleurs pour le thème éco-responsable
-  static const Color primaryColor = Color(0xFF7D9D6C); // Vert olive naturel
-  static const Color accentColor = Color(0xFFCA9E67); // Beige doré
-  static const Color successColor = Color(0xFF8FB573); // Vert sauge
-  static const Color lightTextColor = Color(0xFF7F7D76); // Taupe
-  static const Color dividerColor = Color(0xFFE7E5DF); // Beige très clair
-  static const Color scaffoldBackgroundColor = Color(0xFFF8F7F2); // Ivoire naturel
+  // Définition des couleurs pour le thème BIN FLOW
+  static const Color primaryColor = Color(0xFF3F51B5); // Bleu indigo
+  static const Color accentColor = Color(0xFFFF9800); // Orange
+  static const Color successColor = Color(0xFF4CAF50); // Vert
+  static const Color lightTextColor = Color(0xFF757575); // Gris
+  static const Color dividerColor = Color(0xFFE0E0E0); // Gris clair
+  static const Color scaffoldBackgroundColor = Color(0xFFFAFAFA); // Blanc cassé
 
   @override
   void initState() {

@@ -5,10 +5,11 @@ import 'screens/home_screen.dart';
 import 'screens/login_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/chat_screen.dart';
-import 'theme/app_theme.dart';
+import 'theme/simplified_theme.dart';
 import 'providers/auth_provider.dart';
 import 'providers/chat_provider.dart';
 import 'services/local_review_service.dart';
+// No direct import of flutter_local_notifications to avoid Linux platform issues
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

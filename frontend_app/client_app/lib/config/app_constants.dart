@@ -1,25 +1,25 @@
 class AppConstants {
   // Noms d'application
   static const String appName = 'BIN FLOW';
-  static const String appTagline = 'Artisanat éco-responsable';
+  static const String appTagline = 'Gestion intelligente de flux';
   
   // Catégories
   static const String categories = 'Collections';
   static const String allCategories = 'Toutes nos collections';
   static const String exploreByCategory = 'Explorer par collection';
-  static const String categoriesDescription = 'Parcourez nos différentes collections d\'artisanat éco-responsable';
+  static const String categoriesDescription = 'Parcourez nos différentes collections de produits';
   
   // Produits
-  static const String products = 'Créations';
-  static const String popularProducts = 'Créations populaires';
-  static const String productsDescription = 'Nos meilleures créations artisanales pour vous';
-  static const String seeAllProducts = 'Voir toutes les créations';
+  static const String products = 'Produits';
+  static const String popularProducts = 'Produits populaires';
+  static const String productsDescription = 'Nos meilleurs produits pour vous';
+  static const String seeAllProducts = 'Voir tous les produits';
   static const String addToCart = 'Ajouter au panier';
   static const String productDescription = 'Description';
-  static const String productDetails = 'Détails de la création';
-  static const String handmadeProduct = 'Création artisanale';
-  static const String ecoFriendlyMaterials = 'Matériaux éco-responsables';
-  static const String uniqueItem = 'Pièce unique';
+  static const String productDetails = 'Détails du produit';
+  static const String handmadeProduct = 'Produit de qualité';
+  static const String ecoFriendlyMaterials = 'Matériaux standards';
+  static const String uniqueItem = 'Article unique';
   static const String inStock = 'Disponible';
   static const String outOfStock = 'Rupture de stock';
   
@@ -61,40 +61,40 @@ class AppConstants {
   static const String profile = 'Mon profil';
   static const String settings = 'Paramètres';
   static const String logout = 'Déconnexion';
-  static const String chat = 'Chat Artisanal';
-  static const String chatSubtitle = 'Conseils éco-responsables';
+  static const String chat = 'Assistance BIN FLOW';
+  static const String chatSubtitle = 'Support technique';
   
   // Filtres et recherche
-  static const String search = 'Rechercher une création...';
+  static const String search = 'Rechercher un produit...';
   static const String filter = 'Filtrer';
   static const String sort = 'Trier';
   static const String priceRange = 'Fourchette de prix';
   
   // Matériaux
   static const List<String> materials = [
-    'Bois récupéré',
-    'Coton biologique',
-    'Chanvre',
-    'Bambou',
-    'Corde naturelle', 
-    'Verre recyclé',
-    'Liège durable',
-    'Argile naturelle',
-    'Laine responsable',
-    'Fibres végétales'
+    'Plastique',
+    'Métal',
+    'Verre',
+    'Papier',
+    'Carton', 
+    'Aluminium',
+    'Composite',
+    'Silicone',
+    'Textile',
+    'Bois'
   ];
   
-  // Types de produits artisanaux
+  // Types de produits
   static const List<String> productTypes = [
-    'Décoration',
-    'Art de la table',
+    'Emballages',
+    'Contenants',
     'Accessoires',
-    'Textiles',
-    'Bijoux',
-    'Mobilier',
-    'Luminaires',
-    'Cosmétiques naturels',
-    'Papeterie',
-    'Jardinage'
+    'Stockage',
+    'Transport',
+    'Équipements',
+    'Matériel',
+    'Fournitures',
+    'Composants',
+    'Consommables'
   ];
 } 
