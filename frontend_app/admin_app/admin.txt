@@ -1,0 +1,73 @@
+# Application d'Administration E-Commerce - Résumé
+
+## Présentation Générale
+L'application Admin Dashboard est une interface d'administration complète pour une plateforme e-commerce, développée avec Flutter. Elle offre aux administrateurs une gestion centralisée des différents aspects de la boutique en ligne.
+
+## Authentification et Sécurité
+- Système de connexion sécurisé avec validation des rôles administrateurs
+- Gestion des sessions utilisateurs et détection automatique des sessions expirées
+- Protection de toutes les routes administratives contre les accès non autorisés
+
+## Modules Principaux
+
+### 1. Tableau de Bord
+- Vue d'ensemble des performances commerciales
+- Widgets animés affichant les statistiques clés (ventes du jour, commandes, nouveaux clients)
+- Interface responsive adaptée aux différentes tailles d'écran
+- Navigation intuitive vers tous les modules de gestion
+
+### 2. Gestion des Produits (124 produits)
+- Liste complète du catalogue de produits
+- Fonctionnalités de création, modification et suppression de produits
+- Gestion des stocks et des prix
+- Options de filtrage et de recherche
+
+### 3. Gestion des Commandes (26 commandes)
+- Suivi en temps réel des commandes
+- Filtrage par statut (En cours, Livrées, Annulées)
+- Détails des commandes avec liste des produits et informations client
+- Fonctionnalités de modification du statut des commandes
+
+### 4. Gestion des Utilisateurs (432 utilisateurs)
+- Liste complète des clients et administrateurs
+- Informations détaillées sur chaque utilisateur
+- Historique des commandes par utilisateur
+- Gestion des comptes (activation/désactivation)
+
+### 5. Statistiques et Analyses
+- Tableau de bord analytique détaillé
+- Graphiques de ventes mensuelles
+- Diagrammes de répartition des ventes par catégorie
+- Liste des produits les plus vendus
+- Fonctionnalité d'exportation de rapports (PDF, Excel, CSV)
+
+### 6. Gestion des Livreurs (18 livreurs)
+- Liste des livreurs avec leurs informations personnelles
+- Statut de disponibilité (Disponible, En livraison, Inactif)
+- Suivi des performances (nombre de livraisons, évaluations)
+- Gestion des zones de livraison
+
+### 7. Gestion des Promotions (9 promotions)
+- Création et gestion des codes promotionnels
+- Types de promotions variés (Pourcentage, Montant fixe, Livraison gratuite)
+- Suivi d'utilisation des codes promo
+- Configuration des dates de validité et des limites d'utilisation
+
+### 8. Gestion des Catégories (6 catégories)
+- Organisation des produits par catégories
+- Interface visuelle avec icônes et couleurs personnalisables
+- Statistiques sur le nombre de produits par catégorie
+- Système de hiérarchisation des catégories
+
+## Caractéristiques Techniques
+- Application développée avec Flutter pour une compatibilité multi-plateformes
+- Design responsive s'adaptant à différentes tailles d'écran
+- Animations fluides pour une expérience utilisateur enrichie
+- Interface utilisateur moderne avec thème personnalisable
+- Communication sécurisée avec le backend via API REST authentifiée
+
+## Accès et Navigation
+L'application offre une navigation intuitive entre les différentes sections via:
+- Menu principal sur le tableau de bord
+- Cartes interactives pour chaque module
+- Accès rapide aux fonctionnalités les plus utilisées

@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Client App",
+            "request": "launch",
+            "type": "dart",
+            "program": "frontend_app/client_app/lib/main.dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "Admin App",
+            "request": "launch",
+            "type": "dart",
+            "program": "frontend_app/admin_app/lib/main.dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "Delivery App",
+            "request": "launch",
+            "type": "dart",
+            "program": "frontend_app/delivery_app/lib/main.dart",
+            "flutterMode": "debug"
+        }
+    ]
+}

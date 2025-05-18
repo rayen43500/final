@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Rectangle -->
+  <rect x="0" y="0" width="200" height="60" rx="8" fill="#F8F7F2" stroke="#7D9D6C" stroke-width="2"/>
+  
+  <!-- Main Text "BIN FLOW" -->
+  <text x="20" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#7D9D6C">BIN FLOW</text>
+  
+  <!-- Leaf icon -->
+  <path d="M170,20 C180,15 190,20 185,30 C180,40 170,45 160,40 C150,35 155,25 170,20 Z" fill="#7D9D6C"/>
+  <path d="M170,25 C175,23 180,25 178,32" fill="none" stroke="#F8F7F2" stroke-width="1.5"/>
+</svg> 
